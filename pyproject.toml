@@ -2,11 +2,16 @@
 name = "src"
 version = "0.1.0"
 description = ""
-authors = ["Miguel GP <miguel.gironp@gmail.com>"]
+authors = ["Miguel GP"]
 readme = "README.md"
 
 [tool.poetry.dependencies]
-python = "^3.12"
+python = "^3.12.2"
+jupyter = "^1.0.0"
+requests = "^2.31.0"
+pandas = "^2.2.1"
+pyarrow = "^15.0.0"
+fastparquet = "^2024.2.0"
 
 
 [build-system]
